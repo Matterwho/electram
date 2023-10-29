@@ -1,0 +1,109 @@
+body {
+font: 62.5%/1.33 Verdana, sans-serif;
+background: #E0FFFF; 
+padding: 0;
+margin: 0;
+}
+
+.container {
+width: 100em;
+min-width:10px;
+background: #2F4F4F; 
+margin: 0 auto;
+padding-left: 0px;  
+padding-right: 0px;  
+}
+ 
+
+ 
+/**шапка сайта**/
+.header {
+background:url('../img/bill.png');
+height: 170px;
+width: 100%;
+margin-top: 12px;
+position: relative;
+z-index: 100;
+
+}
+
+.context {
+padding-bottom: 12;
+background:white;
+height: 30px;
+width: 167px;
+position: absolute;
+left:12px;
+top: 137px; 
+} 
+
+.aside {
+background: #FFFFF0;
+height: 100vh;
+width: 30%; 
+float: left;
+position: relative;
+}
+
+/**electramm**/
+.logo {
+color: #808000;
+font-family: Snell Roundhand, cursive;
+font-size: 30px;
+position: absolute;
+right: 130px;
+
+}
+
+.list ul{
+list-style: none;
+position: absolute;
+right: 100px;
+top: 100px;
+}
+.list a{
+text-decoration: none;
+font-size: 23px;
+font-family: Andale Mono, monospac;
+color: #800000;
+}
+.list a:before{
+color: #800000;
+content: url('../img/btn.png');
+}
+
+.main {
+background: #2F4F4F;
+height: 100vh;
+width: 70%;
+float: right;
+}
+.block1{
+float: right;
+background: #FFFFFF;
+font-size: 14px;
+display: flexible;
+margin-left: 3px;
+margin-right: 3px;
+}
+
+.block1 img{
+height: 100px;
+weight: 100px;
+}
+
+
+/* Media Queries */
+@media(max-width: 768px){
+  header #branding,
+  header nav,
+  header nav li,
+  #newsletter h1,
+  #newsletter form,
+  #boxes .box,
+  article#main-col,
+  aside#sidebar{
+    float:none;
+    text-align: center;
+    width:100%;
+  }
