@@ -28,7 +28,7 @@ z-index: 100;
 }
 
 .context {
-padding-bottom: 12;
+list-style: none;
 background:white;
 height: 30px;
 width: 167px;
