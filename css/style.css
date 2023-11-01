@@ -27,15 +27,27 @@ z-index: 100;
 
 }
 
-.context {
+.context{
 list-style: none;
-background:white;
-height: 30px;
-width: 167px;
 position: absolute;
-left:12px;
-top: 137px; 
-} 
+top:130px;
+}
+.context li{
+text-align: center;
+border: 1px solid white;
+border-radius: 3px;
+display: inline;
+background: linear-gradient(#191970,#0000CD);
+font-size: 23px;
+z-index: 100;
+}
+.context: hover {
+background: linear-gradient(black, blue);
+}
+.context a{
+text-decoration: none;
+color: white;
+}
 
 .aside {
 background: #FFFFF0;
