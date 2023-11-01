@@ -40,7 +40,7 @@ background: linear-gradient(#191970,#0000CD);
 font-size: 23px;
 z-index: 100;
 }
-.context: hover {
+.context  li: hover {
 background: linear-gradient(black, blue);
 }
 .context a{
