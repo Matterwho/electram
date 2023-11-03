@@ -21,7 +21,7 @@ padding-left: 0px;
 padding-right: 0px;  
 }
   
-/**шапка сайта**/
+/**ГёГ ГЇГЄГ  Г±Г Г©ГІГ **/
 .header {
 background:url('../img/bill.png');
 height: 170px;
@@ -45,14 +45,17 @@ background: linear-gradient(#191970,#0000CD);
 font-size: 23px;
 z-index: 100;
 }
-.context  li: hover {
+.context  li: hover{
 background: linear-gradient(black, blue);
 }
 .context a{
 text-decoration: none;
 color: white;
 }
-
+.context a: hover{
+ text-decoration: underline;
+ color: blue;
+}
 .aside {
 background: #FFFFF0;
 height: 100vh;
