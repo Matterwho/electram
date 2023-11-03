@@ -1,3 +1,10 @@
+Skip to content
+Matterwho
+/
+electram
+
+Type / to search
+
 body {
 font: 62.5%/1.33 Verdana, sans-serif;
 background: #E0FFFF; 
@@ -6,17 +13,15 @@ margin: 0;
 }
 
 .container {
-width: 100em;
+width: 70em;
 min-width:10px;
 background: #2F4F4F; 
 margin: 0 auto;
 padding-left: 0px;  
 padding-right: 0px;  
 }
- 
-
- 
-/**ΡΠ°ΠΏΠΊΠ° ΡΠ°ΠΉΡ‚Π°**/
+  
+/**ψΰοκΰ ρΰιςΰ**/
 .header {
 background:url('../img/bill.png');
 height: 170px;
@@ -89,6 +94,9 @@ height: 100vh;
 width: 70%;
 float: right;
 }
+.main p {
+padding: 7px;
+}
 .block1{
 float: right;
 background: #FFFFFF;
@@ -97,12 +105,6 @@ display: flexible;
 margin-left: 3px;
 margin-right: 3px;
 }
-
-.block1 img{
-height: 100px;
-weight: 100px;
-}
-
 
 /* Media Queries */
 @media(max-width: 768px){
@@ -118,3 +120,4 @@ weight: 100px;
     text-align: center;
     width:100%;
   }
+ 
