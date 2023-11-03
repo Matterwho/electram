@@ -21,7 +21,7 @@ padding-left: 0px;
 padding-right: 0px;  
 }
   
-/**шапка сайта**/
+/**ГёГ ГЇГЄГ  Г±Г Г©ГІГ **/
 .header {
 background:url('../img/bill.png');
 height: 170px;
@@ -90,7 +90,7 @@ content: url('../img/btn.png');
 
 .main {
 background: #2F4F4F;
-height: 100vh;
+height: 100%;
 width: 70%;
 float: right;
 }
