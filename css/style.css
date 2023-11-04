@@ -15,6 +15,7 @@ display: flex;
 }
 
 .container {
+border-bottom: 3px solid #2F4F4F;
 width: 70em;
 min-width:10px;
 background: #2F4F4F; 
