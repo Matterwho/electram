@@ -60,11 +60,10 @@ color: white;
 }
 .aside {
 background: #FFFFF0;
-height: 100vh;
-display: flexible;
 width: 30%; 
 float: left;
 position: relative;
+min-height: 100vh;
 }
 
 /**electramm**/
