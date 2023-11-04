@@ -10,7 +10,6 @@ font: 62.5%/1.33 Verdana, sans-serif;
 background: #E0FFFF; 
 padding: 0;
 margin: 0;
-height: 100%;
 }
 
 .container {
@@ -62,7 +61,7 @@ background: #FFFFF0;
 width: 30%; 
 float: left;
 position: relative;
-min-height: 100vh;
+min-height: 200vh;
 }
 
 /**electramm**/
