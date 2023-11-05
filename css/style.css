@@ -1,12 +1,12 @@
 
 body {
 font: 62.5%/1.33 Verdana, sans-serif;
-background: #483D8B;
+background: #8FBC8F;
 margin: 0 auto;
 }
 
 .container {
-width: 70em;
+width: 80em;
 min-width:10px;
 background: #2F4F4F; 
 margin: 0 auto;
@@ -14,64 +14,48 @@ padding-left: 0px;
 padding-right: 0px;  
 }
   
-/**øàïêà ñàéòà**/
+
 .header {
 background:url('../img/bill.png');
 height: 170px;
 width: 100%;
-margin-top: 12px;
-position: relative;
+
 }
 
 .context{
 list-style: none;
 position: absolute;
-top:130px;
+top: 120px;
 }
 .context li{
 text-align: center;
 border: 1px solid white;
-border-radius: 3px;
+border-radius: 7px;
 display: inline;
 background: linear-gradient(#191970,#0000CD);
 font-size: 23px;
-
 }
-.context  li: hover{
-background: linear-gradient(black, blue);
+.context  a:hover{
+background: black;
+text-decoration: underline;
 }
 .context a{
 text-decoration: none;
 color: white;
 }
-.context a: hover{
-text-decoration: underline;
-color: blue;
-}
+
 .aside {
 background: #FFFFF0;
 width: 30%; 
 height: 100vh;
+display: flexible;
 float: left;
-position: relative;
 margin: 0 auto;
 }
 
-/**electramm**/
-.logo {
-color: #808000;
-font-family: Snell Roundhand, cursive;
-font-size: 30px;
-position: absolute;
-right: 70px;
-
-}
 
 .list ul{
 list-style: none;
-position: absolute;
-right: 70px;
-top: 100px;
 }
 .list a{
 text-decoration: none;
@@ -83,13 +67,22 @@ color: #800000;
 color: #800000;
 content: url('../img/btn.png');
 }
+.list a:before{
+color: #800000;
+content: url('../img/btn.png');
+}
+.list a:hover{
+background: linear-gradient(#8B0000,#FFC0CB);
+}
 
 .main {
 background: #2F4F4F;
-height: 100vh;
+min-height: 100vh;
 width: 70%;
 float: right;
 border-bottom: 3px solid #2F4F4F;
+display: flex;
+flex-direction: column;
 }
 .main p {
 padding: 7px;
@@ -99,17 +92,14 @@ font-size: 14px;
 .block1{
 float: right;
 background: #FFFFFF;
-display: flexible;
 margin-left: 3px;
 margin-right: 3px;
 border-bottom: 3px solid #2F4F4F;
-
 }
 
 .block2{
 background: #FFFFFF;
 float: right;
-display: flexible;
 margin-left: 3px;
 margin-right: 3px;
 border-bottom: 3px solid #2F4F4F;
