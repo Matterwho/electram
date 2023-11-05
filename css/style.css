@@ -1,7 +1,7 @@
 
 body {
 font: 62.5%/1.33 Verdana, sans-serif;
-background: green;
+background: black;
 margin: 0 auto;
 }
 
@@ -14,14 +14,12 @@ padding-left: 0px;
 padding-right: 0px;  
 }
   
-/**øàïêà ñàéòà**/
 .header {
 background:url('../img/bill.png');
 height: 170px;
 width: 100%;
 margin-top: 12px;
 position: relative;
-z-index: 100;
 }
 
 .context{
@@ -36,10 +34,9 @@ border-radius: 3px;
 display: inline;
 background: linear-gradient(#191970,#0000CD);
 font-size: 23px;
-z-index: 100;
 }
-.context  li: hover{
-background: linear-gradient(black, blue);
+.context  li:hover{
+background:linear-gradient(black, blue);
 }
 .context a{
 text-decoration: none;
