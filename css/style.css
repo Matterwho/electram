@@ -1,7 +1,7 @@
 
 body {
 font: 62.5%/1.33 Verdana, sans-serif;
-background: black;
+background: #483D8B;
 margin: 0 auto;
 }
 
@@ -14,6 +14,7 @@ padding-left: 0px;
 padding-right: 0px;  
 }
   
+/**øàïêà ñàéòà**/
 .header {
 background:url('../img/bill.png');
 height: 170px;
@@ -34,23 +35,26 @@ border-radius: 3px;
 display: inline;
 background: linear-gradient(#191970,#0000CD);
 font-size: 23px;
+
 }
-.context  li:hover{
-background:linear-gradient(black, blue);
+.context  li: hover{
+background: linear-gradient(black, blue);
 }
 .context a{
 text-decoration: none;
 color: white;
 }
 .context a: hover{
- text-decoration: underline;
- color: blue;
+text-decoration: underline;
+color: blue;
 }
 .aside {
 background: #FFFFF0;
 width: 30%; 
+height: 100vh;
 float: left;
 position: relative;
+margin: 0 auto;
 }
 
 /**electramm**/
@@ -60,6 +64,7 @@ font-family: Snell Roundhand, cursive;
 font-size: 30px;
 position: absolute;
 right: 70px;
+
 }
 
 .list ul{
