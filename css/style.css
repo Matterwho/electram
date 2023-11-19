@@ -25,7 +25,7 @@ width: 100%;
 .context{
 list-style: none;
 position: absolute;
-top: 120px;
+top: 130px;
 }
 .context li{
 text-align: center;
@@ -47,7 +47,7 @@ color: white;
 .aside {
 background: #FFFFF0;
 width: 30%; 
-height: 100vh;
+min-height: 100vh;
 display: flexible;
 float: left;
 margin: 0 auto;
@@ -87,7 +87,6 @@ flex-direction: column;
 .main p {
 padding: 7px;
 font-size: 14px;
-
 }
 .block1{
 float: right;
@@ -96,13 +95,8 @@ margin-left: 3px;
 margin-right: 3px;
 border-bottom: 3px solid #2F4F4F;
 }
-
-.block2{
-background: #FFFFFF;
-float: right;
-margin-left: 3px;
-margin-right: 3px;
-border-bottom: 3px solid #2F4F4F;
+.block1 a:hover{
+background: linear-gradient(#8B0000,#FFC0CB);
 }
 
 /* Media Queries */
