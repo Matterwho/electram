@@ -14,12 +14,14 @@ padding-left: 0px;
 padding-right: 0px;  
 }
   
+.wrap{
+display: flex;
+}
 
 .header {
 background:url('../img/bill.png');
 height: 170px;
 width: 100%;
-
 }
 
 .context{
@@ -47,8 +49,6 @@ color: white;
 .aside {
 background: #FFFFF0;
 width: 30%; 
-min-height: 100vh;
-display: flexible;
 float: left;
 margin: 0 auto;
 }
@@ -81,22 +81,27 @@ min-height: 100vh;
 width: 70%;
 float: right;
 border-bottom: 3px solid #2F4F4F;
-display: flex;
 flex-direction: column;
 }
 .main p {
 padding: 7px;
 font-size: 14px;
 }
+
 .block1{
 float: right;
 background: #FFFFFF;
 margin-left: 3px;
 margin-right: 3px;
 border-bottom: 3px solid #2F4F4F;
+border-radius: 3%;
 }
 .block1 a:hover{
 background: linear-gradient(#8B0000,#FFC0CB);
+}
+
+.pages{
+text-align: center;
 }
 
 /* Media Queries */
