@@ -109,7 +109,7 @@ display: inline;
 margin-bottom: 10px;
 }
 #button:active {
-    background: #ff4136; /* red */
+background: #ff4136;
 }
 #button:hover{
 background: linear-gradient(#008080,#800000);
