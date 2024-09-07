@@ -109,8 +109,12 @@ display: inline;
 margin-bottom: 10px;
 }
 
-button:active {
+#button:active {
     background: #ff4136; /* red */
+}
+
+#button:hover{
+background: linear-gradient(#ff4136,black);
 }
 
 #power {
