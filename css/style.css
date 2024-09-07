@@ -109,11 +109,18 @@ display: inline;
 margin-bottom: 10px;
 }
 
-input {
+#power {
 border: solid 3px #008080;
-width: 12px;
+width: 12em;
 bottom: 10px;
 }
+
+.show {
+border: solid 3px #008080;
+width: 12em;
+bottom: 10px;
+}
+
 .pages{
 text-align: center;
 }
