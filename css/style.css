@@ -109,6 +109,10 @@ display: inline;
 margin-bottom: 10px;
 }
 
+button:active {
+    background: #ff4136; /* red */
+}
+
 #power {
 border: solid 3px #008080;
 width: 12em;
