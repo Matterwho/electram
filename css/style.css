@@ -101,20 +101,18 @@ background: linear-gradient(#8B0000,#FFC0CB);
 }
 
 #button {
-background: black; 
+background: #008080; 
 width: 100px; 
 height: 25px;
 color: white; 
 display: inline; 
 margin-bottom: 10px;
 }
-
 #button:active {
     background: #ff4136; /* red */
 }
-
 #button:hover{
-background: linear-gradient(#ff4136,black);
+background: linear-gradient(#008080,#800000);
 }
 
 #power {
