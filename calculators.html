@@ -14,6 +14,7 @@
 			i = p / (0.380 * 1.73 * 0.94);
 			if (i > 3000) 
 			{document.getElementById("show").innerHTML = `I = ${Math.round(i/1)} A, слишком большой ток!`}
+			(alert("слишком большой ток")
 			else 
 			{ document.getElementById("show").innerHTML = `I = ${ Math.round(i/1)} A`}
 			}
