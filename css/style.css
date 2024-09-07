@@ -109,7 +109,7 @@ display: inline;
 margin-bottom: 10px;
 }
 
-#power {
+input {
 border: solid 3px #008080;
 width: 12px;
 bottom: 10px;
