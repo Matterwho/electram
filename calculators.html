@@ -40,12 +40,12 @@
 		</div>
 	</div>
 		<script>
-		function submit () {
-			p = getElimentById("power").value;
+		function submit() {
+			p = document.getElimentById("power").value;
 			i = p / (0,380 * 1,73 * 0,94);
 			if (i > 3000) {
-			getElimentById("show").innerHTML = `I = ${ Math.round(i/1)} A, слишком большой ток!`}
-			else {getElimentById("show").innerHTML = `I = ${ Math.round(i/1)} A`}
+			 document.getElimentById("show").innerHTML = `I = ${ Math.round(i/1)} A, слишком большой ток!`}
+			else { document.getElimentById("show").innerHTML = `I = ${ Math.round(i/1)} A`}
 			}
 		</script>
     </body>
