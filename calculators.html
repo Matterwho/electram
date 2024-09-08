@@ -43,10 +43,8 @@
 		function submit() {
 			p = document.getElementById("power").value;
 			i = p / (0.380 * 1.73 * 0.94);
-			if (i > 0) {
-				return (document.getElementById("show").innerHTML = `I = ${ Math.round(i/1)} A`)};	
-			else {
-				return (document.getElementById("show").innerHTML = `Введите положительное число`)}
+			document.getElementById("show").innerHTML = `I = ${ Math.round(i/1)} A`};	
+			
 				
 		}
 		</script>
