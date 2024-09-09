@@ -38,14 +38,13 @@
 		</div>
 	</div>
 	<script>
-		function submit() {
-			var p = document.getElementById("power").value;
-			var i = p / (0.380 * 1.73 * 0.94);
-			document.getElementById("show").innerHTML = `I = ${ Math.round(i/1)} A`};	
-		
+			function showResult() {
+			p = document.getElementById("power").value;
+			i = p / (0.380 * 1.73 * 0.94);
+			if (i > 0) {
+			document.getElementById("show").innerHTML = `I = ${Math.round(i/1)} A`}
+			else {document.getElementById("show").innerHTML = `Введите положительное значение`}}
 	</script>	
-    </body>
-		
-	    
+    </body>    
 </html>
 
