@@ -100,7 +100,7 @@ border-radius: 3%;
 background: linear-gradient(#8B0000,#FFC0CB);
 }
 
-#button {
+#button, #btn {
 background: #008080; 
 width: 100px; 
 height: 25px;
