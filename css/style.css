@@ -109,10 +109,12 @@ color: white;
 display: inline; 
 margin-bottom: 10px;
 }
-#button:active {
+#button:active,
+#btn:active {
 background: #ff4136;
 }
-#button:hover{
+#button:hover,
+#btn:hover {
 background: linear-gradient(#008080,#800000);
 }
 
