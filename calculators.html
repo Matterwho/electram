@@ -35,6 +35,12 @@
 		<button id = "button" onclick = "showResult()"> Ok </button>
 		<h3 id = "show"> Результат </h3>
 		</div>
+		<div id = "calculator">
+		<p style = "text-decoration: none; font-size: 23px; color: #008080;"> Расчет сечения проводника </p>
+		<input id = "diameter"  type = "number" placeholder = "Введите диаметр, мм"> 
+		<button id = "button" onclick = "giveResult()"> Ok </button>
+		<h3 id = "show2"> Результат </h3>
+		</div>
 		</div>
 	</div>
 	<script>
@@ -44,6 +50,12 @@
 			if (i > 0) {
 			document.getElementById("show").innerHTML = `I = ${Math.round(i/1)} A`}
 			else {document.getElementById("show").innerHTML = `Введите положительное значение`}}
+			function giveResult() {
+			d = document.getElementById("diameter").value;
+			s = (((d / 2)**2)*(Math.PI));
+			if (s > 0) {
+			document.getElementById("").innerHTML = S = ${Math.round(s/1)} мм`}
+			else {document.getElementById("show2").innerHTML = `Введите положительное значение`}}
 	</script>	
     </body>    
 </html>
