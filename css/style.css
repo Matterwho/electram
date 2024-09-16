@@ -126,7 +126,7 @@ border: 3px solid #2f4f4f;
 width: 12em;
 }
   
-.calculator .calculator2 {
+.calculator, .calculator2 {
 height: 170px;
 width: 95%;
 background: #FFFFFF;
@@ -134,7 +134,6 @@ margin-left: 3px;
 margin-right: 3px;
 border-bottom: 3px solid #2F4F4F;
 border-radius: 3%;
-
 }
 
 .pages{
